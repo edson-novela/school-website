@@ -1,0 +1,53 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dosis:wght@200;300;400;500;600;700;800&family=Pacifico&display=swap');
+/*Cores*/
+:root {
+    --primary-color: #918ef4;
+    --secondary-color: #f93943;
+    --text-color: #2708a0;
+    --white-color: #fafffd;
+    --acent-color: #FFD166;
+}
+p, a {
+    font-family: 'Dosis';
+}
+h1, h2, h3, h4 {
+    font-family: 'Archivo Black';
+}
+body, a,li {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--text-color);
+}
+
+.header {
+    width: 100%;
+    height: max-content;
+    box-shadow: 0 0 1em #918ef4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navegation {
+    width: 30%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+.menu li a {
+    text-decoration: none;
+    color:#0d013b;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/**Primeira Seccao*/
+.first-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/group-of-diverse-cheerful-kis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
